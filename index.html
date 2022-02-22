@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row row2">
+      <!-- TOP ARTISTS -->
+      <div class="col-12">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            
+
+            <!-- rank 1 -->
+            <div class="carousel-item active">
+              <div class="col-8 position-relative">
+                <p class="topArtists">Top Artists <br><span>Rank #1</span></p>
+                <p class="name">Joji <br><span>Monthly Listener</span> <span id="digits">14,760,153</span></p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark songListBtn mx-auto" data-toggle="modal" data-target="#exampleModalCenter">
+                  Song List
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content p-0 m-0">
+                      <div class="modal-header p-0 m-0">
+                        <iframe src="https://open.spotify.com/embed/artist/3MZsBdqDrRTJihTHQrO6Dq?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img src="Carousel/carousel1.png" class="d-block w-100">
+            </div>
+
+            <!-- rank 2 -->
+            <div class="carousel-item">
+              <div class="col-8 position-relative">
+                <p class="topArtists">Top Artists <br><span>Rank #2</span></p>
+                <p class="name">Post Malone <br><span>Monthly Listener</span> <span id="digits">49,549,371</span></p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark songListBtn mx-auto" data-toggle="modal" data-target="#exampleModalCenter">
+                  Song List
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content p-0 m-0">
+                      <div class="modal-header p-0 m-0">
+                        <iframe src="https://open.spotify.com/embed/artist/246dkjvS1zLTtiykXe5h60?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img src="Carousel/carousel2.png" class="d-block w-100">
+            </div>
+
+            <!-- rank 3 -->
+            <div class="carousel-item">
+              <div class="col-8 position-relative">
+                <p class="topArtists">Top Artists <br><span>Rank #1</span></p>
+                <p class="name">Ben & Ben <br><span>Monthly Listener</span> <span id="digits">49,549,371</span></p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark songListBtn mx-auto" data-toggle="modal" data-target="#exampleModalCenter">
+                  Song List
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content p-0 m-0">
+                      <div class="modal-header p-0 m-0">
+                        <iframe src="https://open.spotify.com/embed/artist/246dkjvS1zLTtiykXe5h60?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img src="Carousel/carousel3.png" class="d-block w-100">
+            </div>
+          </div>
+
+
+         <button class="carousel-control-prev prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next next" type="button" data-target="#carouselExampleControls" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <h2 class="my-4 ml-3">Today's Top Hits</h2>
+      <!-- cards -->
+      <div class="row mx-1">
+        <!-- #1 -->
+        <div class="col-2">
+          <div class="card" style="width: 14rem;">
+            <a class="mx-auto mt-3" href="https://open.spotify.com/track/08MFgEQeVLF37EyZ7jcwLc?si=b5fb97ea1d904076"><img class="card-img-top " src="Top Hits/cover1.png" alt="Card image cap"></a>
+            <div class="card-body">
+              <p class="card-text">#1 <span class="ml-2">Pano</span></p>
+            </div>
+            <iframe src="https://open.spotify.com/embed/track/08MFgEQeVLF37EyZ7jcwLc?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+
+        <!-- #2 -->
+        <div class="col-2">
+          <div class="card" style="width: 14rem;">
+            <a class="mx-auto mt-3" href="https://open.spotify.com/track/68HocO7fx9z0MgDU0ZPHro?si=903956037b8b4fd6"><img class="card-img-top " src="Top Hits/cover2.png" alt="Card image cap"></a>
+            <div class="card-body">
+              <p class="card-text">#2 <span class="ml-2">Summertime</span></p>
+            </div>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/68HocO7fx9z0MgDU0ZPHro?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+
+        <!-- #3 -->
+        <div class="col-2">
+          <div class="card" style="width: 14rem;">
+            <a class="mx-auto mt-3" href="https://open.spotify.com/track/63bmIgH9sS6sX5Sc7MetGq?si=eb391ca9310c42e4"><img class="card-img-top " src="Top Hits/cover3.png" alt="Card image cap"></a>
+            <div class="card-body">
+              <p class="card-text">#3 <span class="ml-2">Habang Buhay</span></p>
+            </div>
+            <iframe src="https://open.spotify.com/embed/track/63bmIgH9sS6sX5Sc7MetGq?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+
+        <!-- #4 -->
+        <div class="col-2">
+          <div class="card" style="width: 14rem;">
+            <a class="mx-auto mt-3" href="https://open.spotify.com/track/34YfLWuoxLEcvJQNxdI9P2?si=05c717df518748a0"><img class="card-img-top " src="Top Hits/cover4.png" alt="Card image cap"></a>
+            <div class="card-body">
+              <p class="card-text">#4 <span class="ml-2">Pagsamo</span></p>
+            </div>
+            <iframe src="https://open.spotify.com/embed/track/34YfLWuoxLEcvJQNxdI9P2?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+
+        <!-- #5 -->
+        <div class="col-2">
+          <div class="card" style="width: 14rem;">
+            <a class="mx-auto mt-3" href="https://open.spotify.com/track/5Hm2MJQ4ECvQmH5QWCMQrR?si=436160756d0244c1"><img class="card-img-top " src="Top Hits/cover5.png" alt="Card image cap"></a>
+            <div class="card-body">
+              <p class="card-text">#5 <span class="ml-2">Paraluman</span></p>
+            </div>
+            <iframe src="https://open.spotify.com/embed/track/5Hm2MJQ4ECvQmH5QWCMQrR?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+
+        <!-- #6 -->
+        <div class="col-2">
+          <div class="card" style="width: 14rem;">
+            <a class="mx-auto mt-3" href="https://open.spotify.com/track/16iRlyUMJVPqz62DlomMre?si=63c91c19733f49a8"><img class="card-img-top " src="Top Hits/cover6.png" alt="Card image cap"></a>
+            <div class="card-body">
+              <p class="card-text">#6 <span class="ml-2">Ikaw Lang</span></p>
+            </div>
+            <iframe src="https://open.spotify.com/embed/track/16iRlyUMJVPqz62DlomMre?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

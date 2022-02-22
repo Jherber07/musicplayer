@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html, .container-fluid{
+  overflow-x: hidden;
+  background-color: rgb(39,39,39);
+}
+.row2{
+  display: flex;
+  flex-direction: column;
+}
+/* carousel */
+.prev, .next{
+  width: 100px !important;
+}
+
+.carousel-inner p{
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+.topArtists{
+  color:  rgb(39,39,39) !important;
+  top: 100px;
+  left: 100px;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 2em;
+  font-style: italic;
+}
+.topArtists span{
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+.name{
+  top: 150px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  color: rgb(39,39,39) !important;
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 7em;
+}
+.name span{
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  top: 160px;
+  font-size: 1.5rem;
+  position: absolute;
+}
+
+#digits{
+  color: white;
+  font-size: 1.3rem;
+  top: 195px;
+}
+
+.songListBtn{
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 380px;
+  position: absolute;
+}
+
+h2{
+  color: white;
+}
+
+/* cards */
+.card{
+  background-color: rgb(46,46,46) !important;
+}
+.card:hover{
+  background-color: rgb(59,59,59) !important;
+}
+.card-text{
+  color: white;
+  font-family: lato;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+.card-text span{
+  font-weight: 300;
+}
+.card img{
+  width: 190px;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.card img:hover{
+  transform: scale(117%);
+  -webkit-transform: scale(117%);
+  -moz-transform: scale(117%);
+  -ms-transform: scale(117%);
+  -o-transform: scale(117%);
+}
+.card iframe{
+  position: absolute;
+  bottom: 0;
+  display: none;
+}
+iframe:hover,
+.card-body:hover + iframe{
+  display: block;
+}
